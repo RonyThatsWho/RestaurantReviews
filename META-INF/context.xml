@@ -1,0 +1,6 @@
+<Context>
+	<Resource name="jdbc/test" auth="Container" type="javax.sql.DataSource"
+		maxActive="50" maxIdle="30" maxWait="10000" logAbandoned="true"
+		username="sa" password="" driverClassName="org.h2.Driver"
+		url="jdbc:h2:tcp://localhost/~/test" />
+</Context>
